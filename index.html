@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Rock Paper Scissors</h1>
+    <div class="dark-mode-toggle">
+      <label class="switch">
+        <input type="checkbox" id="darkModeToggle" />
+        <span class="slider round"></span>
+      </label>
+      <span>Dark Mode</span>
+    </div>
+    <div class="choices">
+      <button class="choice" id="rock">✊</button>
+      <button class="choice" id="paper">✋</button>
+      <button class="choice" id="scissors">✌️</button>
+    </div>
+    <div class="result">
+      <p id="player-choice">You chose: <span>-</span></p>
+      <p id="computer-choice">Computer chose: <span>-</span></p>
+      <p id="winner">Result: <span>-</span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
